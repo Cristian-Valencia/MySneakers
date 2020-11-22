@@ -1,0 +1,47 @@
+.product{
+    background: white;
+    width: 30%;
+    border-radius: 20px;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 13px -7px #858585, 0px 2px 10px -30px rgba(221,221,221,0.11);
+}
+
+.image{
+    width: 100%;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.color{
+    margin-right: 10px;
+}
+
+.size{
+    margin-left: 10px;
+}
+
+.cardsContainer{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.price{
+    color: rgb(255, 139, 154);
+}
+
+.name{
+    font-size: 20px;
+    background: rgb(44, 44, 44);
+    color: white;
+    display: inline;
+    padding: 3px 5px;
+    border-radius: 5px;
+}

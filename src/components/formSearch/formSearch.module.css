@@ -1,0 +1,42 @@
+.logo {
+    display: none;
+}
+
+.selectContainer{
+    display: flex;
+    flex-direction: column;
+    width: 23.3%;
+}
+
+.searchContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.button{
+    width: 20%;
+    color: white;
+    background: rgb(255, 179, 255);
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    height: 40px;
+    align-self: flex-end;
+}
+
+.label{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.select{
+    border: 2px white solid;
+    border-radius: 20px;
+    background: none;
+    padding: 10px;
+    color: white;
+    height: 40px;
+}
