@@ -4,13 +4,15 @@ import imageOne from '../../images/airForce.png';
 import {productsArray} from './products.config';
 
 
-const Products = () => {
+const Products = (props) => { 
+
     return(
         <div className={styles.cardsContainer}>
             {
-                productsArray.map((el) =>{
+                props.shoesArray.map((el) =>{
                     return <div className={styles.product}>
                                 <h2 className={styles.name}>{el.name}</h2>
+                                <h3 className={styles.brand}>{el.brand}</h3>
                                 <img src={imageOne} className={styles.image}/> 
                                 <h2 className={styles.price}>{el.price}$</h2>
                                 <div className={styles.details}>

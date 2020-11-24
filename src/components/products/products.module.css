@@ -45,3 +45,9 @@
     padding: 3px 5px;
     border-radius: 5px;
 }
+
+.brand{
+    font-size: 15px;
+    color: rgb(32, 32, 32);
+    margin-top: 10px;
+}
