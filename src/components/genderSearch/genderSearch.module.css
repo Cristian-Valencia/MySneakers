@@ -1,0 +1,12 @@
+.button{
+    background-color: rgb(170, 170, 255);
+    color: white;
+    margin-right: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.buttonContainer{
+    margin: 40px 0;
+}
